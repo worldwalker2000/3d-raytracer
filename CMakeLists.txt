@@ -1,5 +1,4 @@
 cmake_minimum_required(VERSION 3.5)
-message(STATUS "${CMAKE_SYSTEM_PREFIX_PATH}")
 
 project(3d-raytracer)
 
