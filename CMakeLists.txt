@@ -7,11 +7,9 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 find_package(SDL2 REQUIRED)
+find_package(GLM REQUIRED)
 
-set(lib_include_dirs ${SDL2_INCLUDE_DIR})
-set(lib_libraries ${SDL2_LIBRARIES})
-
-include_directories(${lib_include_dirs})
+include_directories(${SDL2_INCLUDE_DIR} ${GLM_INCLUDE_DIR})
 
 set(source_dir "${PROJECT_SOURCE_DIR}/src/")
 
@@ -20,4 +18,4 @@ file(GLOB proj_include_files "${source_dir}/*.hpp" "${source_dir}/*/*.hpp")
 
 add_executable(3d-raytracer ${proj_source_files} ${proj_include_files})
 
-target_link_libraries(3d-raytracer ${lib_libraries})
+target_link_libraries(3d-raytracer ${SDL2_LIBRARIES})
