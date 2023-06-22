@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/worldwalker/code/3d-raytracer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include/SDL2  -Wall -Werror -O2 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/3d-raytracer.dir/src/Level.cpp.o -c /Users/worldwalker/code/3d-raytracer/src/Level.cpp",
+  "file": "/Users/worldwalker/code/3d-raytracer/src/Level.cpp"
+},
+{
+  "directory": "/Users/worldwalker/code/3d-raytracer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include/SDL2  -Wall -Werror -O2 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/3d-raytracer.dir/src/main.cpp.o -c /Users/worldwalker/code/3d-raytracer/src/main.cpp",
+  "file": "/Users/worldwalker/code/3d-raytracer/src/main.cpp"
+},
+{
+  "directory": "/Users/worldwalker/code/3d-raytracer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include/SDL2  -Wall -Werror -O2 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/3d-raytracer.dir/src/objects/Light.cpp.o -c /Users/worldwalker/code/3d-raytracer/src/objects/Light.cpp",
+  "file": "/Users/worldwalker/code/3d-raytracer/src/objects/Light.cpp"
+},
+{
+  "directory": "/Users/worldwalker/code/3d-raytracer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include/SDL2  -Wall -Werror -O2 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/3d-raytracer.dir/src/objects/Object.cpp.o -c /Users/worldwalker/code/3d-raytracer/src/objects/Object.cpp",
+  "file": "/Users/worldwalker/code/3d-raytracer/src/objects/Object.cpp"
+},
+{
+  "directory": "/Users/worldwalker/code/3d-raytracer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include/SDL2  -Wall -Werror -O2 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/3d-raytracer.dir/src/objects/Plane.cpp.o -c /Users/worldwalker/code/3d-raytracer/src/objects/Plane.cpp",
+  "file": "/Users/worldwalker/code/3d-raytracer/src/objects/Plane.cpp"
+},
+{
+  "directory": "/Users/worldwalker/code/3d-raytracer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/include/SDL2  -Wall -Werror -O2 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/3d-raytracer.dir/src/objects/Sphere.cpp.o -c /Users/worldwalker/code/3d-raytracer/src/objects/Sphere.cpp",
+  "file": "/Users/worldwalker/code/3d-raytracer/src/objects/Sphere.cpp"
+}
+]

@@ -1,0 +1,9 @@
+CMakeFiles/
+*.cmake
+CMakeCache.txt
+Makefile
+3d-raytracer
+build/
+.vscode/
+.DS_Store
+.cache/
